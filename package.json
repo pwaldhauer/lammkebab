@@ -1,12 +1,14 @@
 {
-    "name": "pdfparse",
-    "version": "0.0.0",
-    "description": "",
-    "main": "app.js",
-    "dependencies": {
-        "underscore": "x.x",
-        "async": "x.x"
-    },
-    "author": "Philipp Waldhauer",
-    "license": "MIT"
+  "name": "LammkebapDetector",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "underscore": "x.x",
+    "async": "x.x",
+    "pdf2json": "^0.6.7",
+    "request": "x.x"
+  },
+  "author": "Philipp Waldhauer",
+  "license": "MIT"
 }
