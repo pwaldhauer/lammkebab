@@ -19,12 +19,13 @@ function parsePDF(pdf_data) {
             buffer += text;
 
             if (days.indexOf(text.trim()) != -1) {
-                current_day = text;
+
 
                 if (analyzeBuffer(buffer)) {
                     return writeTemplate(current_day);
                 }
 
+                current_day = text;
                 buffer = '';
             }
         }
